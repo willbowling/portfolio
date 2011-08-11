@@ -1,0 +1,142 @@
+* {margin:0; padding:0;}
+html {background: #666 url(../images/bgshim.jpg) top center repeat-y;}
+
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4 { font-size: 13px; }
+h5 { font-size: 12px; }
+
+body {color: #fff; font: 11px/18px normal 'Trebuche MS', 'Lucida Grande', 'LinoType Sans', Verdana, Arial, Sans Serif;  }
+
+a:link, a:visited {text-decoration: underline; color: #fff; }   
+a:hover, a:active {text-decoration: none; color: #666; }   
+
+p.copyright {font-size: 10px;}
+
+#container {
+	position:relative;
+	margin: 0 auto;
+	width: 750px;
+	}
+
+div#head {
+	background: transparent url(../images/zetahead.jpg) top center no-repeat;
+	color: #1D71A0;
+	height: 186px;
+	text-align: left;
+	}
+	
+div#head h3 { display: none;}	
+		
+#content { 
+	border: 0px solid #ebe9dc;
+	padding: 20px;
+	}
+		
+hr.clear {clear:both; visibility:hidden;}	
+	
+	
+#footer {
+	position:relative; 
+	/* background: url(../images/footerlogo.jpg) bottom right no-repeat; */
+	height: 40px; text-align:center;}	
+	
+	
+#content h3 { font-size: 14px; padding: 10px 0 0 0; color: #fff; }   
+#content p { padding-left: 20px; }
+
+#summary {
+	float: left;
+	width: 420px;
+	}
+
+div.text {
+	position: relative;
+	width: 370px;
+	}
+
+/*#boxForm label, #boxForm input {
+	 display: block; 
+	/* width: 150px; 
+	margin-bottom: 7px;
+}
+
+#boxForm input {display:inline;}
+
+#boxForm label {
+	text-align: right;
+	width: 85px;
+	float: left;
+	padding-right: 10px;
+}*/
+
+
+#boxForm {
+	border: 1px solid gray;
+	width: 250px;
+	background-color: #fff;
+	padding: 20px 10px 20px 0;
+	color: #6E1C1E;
+	float: right;
+	}
+	
+#form label, #form input {
+	/* display: block; */
+	/* width: 150px; */
+	margin-bottom: 7px;
+}
+
+#form input {display:inline;}
+
+#form label {
+	text-align: right;
+	width: 45px;
+	float: left;
+	padding-right: 10px;
+}
+.cssform p{
+width: 300px;
+clear: left;
+margin: 0;
+padding: 5px 0 8px 0;
+padding-left: 115px; /*width of left column containing the label elements*/
+border-top: 1px dashed gray;
+height: 1%;
+}
+
+.cssform label{
+font-weight: bold;
+float: left;
+margin-left: -115px; /*width of left column*/
+width: 100px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+
+.cssform input[type="text"]{ /*width of text boxes. IE6 does not understand this attribute*/
+width: 180px;
+}
+
+
+/*.threepxfix class below:
+Targets IE6- ONLY. Adds 3 pixel indent for multi-line form contents.
+to account for 3 pixel bug: http://www.positioniseverything.net/explorer/threepxtest.html
+*/
+
+* html .threepxfix{
+margin-left: 3px;
+}
+
+/* 	----------- CSS Submit Button ------------- */   
+
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.formbutton{
+cursor:pointer;
+border:outset 1px #ccc;
+background:#999;
+color:#666;
+font-weight:bold;
+padding: 1px 2px;
+margin-left: 75px;
+background:url(../images/formbg.gif) repeat-x left top;
+}  

@@ -1,0 +1,266 @@
+/*
+------------------------------
+
+FLLakehouse screen styles
+
+Design & Dev by Will Bowling
+http://www.willbowling.com
+
+------------------------------
+*/
+
+
+
+body{
+margin:0;
+padding:0;
+line-height: 1.3em;
+/* font: 90%/120% 'lucida grande', 'lucida sans unicode', 'Trebuche MS', Helvetica, Verdana, Arial, sans-serif; */
+font: 90%/120% 'Trebuche MS', Helvetica, Verdana, Arial, sans-serif;
+background: #4C5F1F url(../images/bgshim.jpg) top left repeat-x; background-attachment:fixed;
+}
+
+h1 {font-size: 17px;}
+h2 {font-size: 15px;}
+h3 {font-size: 13px;}
+h4 {font-size: 11px;}
+h5 {font-size: 10px;}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, dl, address { margin: 0em 0; padding: 0; }
+li, dd, blockquote { margin-left: 0em; } form label { cursor: pointer; } fieldset { border: 0; }
+input, select, textarea { font-size: 100%; }
+/* a { color: #992723; text-decoration:none; font-size : 12px; font-weight: bold;}
+a:hover { color: #918b7d; text-decoration: underline; font-size : 12px; font-weight: bold;} */
+
+a:link, a:visited {color: #c00; text-decoration:none; font-size: 12px; font-weight:bold;}
+a:hover {color: #666; text-decoration:underline; font-size: 12px; font-weight:bold;}
+a:active {color: #fff; text-decoration:underline; font-size: 12px; font-weight:bold;}
+
+#wrapper{
+width: 920px; /*Width of main container*/
+margin: 25px auto; /*Center container on page*/
+background-color: #fff;
+}
+
+#head{
+background: transparent url(../images/florida-lakehouse-heading.jpg) top center no-repeat; 
+height:140px; 
+margin:0; 
+border:0;
+}
+
+#head h1 {display:none;margin:0;}	
+
+#body{
+float: left;
+width: 100%;
+background: #fff url(../images/florida-lakehouse-mainbg.jpg) top center no-repeat; padding-bottom: 30px;
+}
+
+#mainCol{
+margin: 20px 181px 0 181px; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+}
+
+#mainCol p {padding:5px 20px;}
+#mainCol h2 {padding-left: 10px; color: #70863E;}
+#mainCol h3 { color:#fff; padding-left: 10px; background: transparent url(../images/premiereH3bkg.jpg) top left repeat-x; padding: 2px 0; height:20px;}
+#mainCol h3 span {font-size:11px; padding: 2px 0; padding-left: 5px; letter-spacing:1px;}
+#mainCol h3 span img {float:right;}
+#mainCol h3 .moreCity {padding-left:60px; color: #FFCC00; font-style: italic;}
+#mainCol h4 {color: #fff; font-size: 1.2em; padding-left: 10px; padding-top: 5px;}
+#mainCol h4 .price {color: yellow; font-style: italic;}
+#mainCol table#listing {color: #fff; text-align: right; height: auto; width: 318px; height: 150px; font-style: normal; padding: 0pt; }
+#mainCol table#listing th {font-weight:bold;}
+#mainCol img.featured {padding-left: 15px;}
+#mainCol .description {color: #000;}
+
+#premiere { margin: 0px; border:1px solid #6A5B48; border-top: 0px; background: #fff url(../images/premierebg.jpg) top left repeat-x; height:190px;}
+#premiere .premiereImg {float:left; position:relative; padding: 10px;}
+#premiere h3 { color:#fff; border-top: 1px solid #6a5b48; margin-top: 10px; padding-left: 10px; background: transparent url(../images/premiereH3bkg.jpg) top left repeat-x; height:20px;}
+#premiere h3 span {font-size:11px; padding-bottom: 2px; padding-left: 10px; letter-spacing:1px;}
+#premiere h3 span img {float:right;}
+#premiere p {padding:10px;}
+
+
+#leftCol{
+float: left;
+width: 161px; /*Width of left column in pixel*/
+margin-left: -905px; /*Set margin to that of -(MainContainerWidth) minus left padding */ 
+margin-top: 20px;
+padding: 10px 0 0 0;
+background: transparent url(../images/leftCol_top_dk.gif) top center no-repeat;
+}
+
+#leftCol div#inner {padding-top: 0px; background: transparent url(../images/leftCol_shim.gif) top center repeat-y;}
+#leftCol div#inner h3.topHead {padding-top:0; background-color:#6A5B48; color:#fff;}
+#leftCol div#inner h3 {padding-left: 10px; margin-bottom:0px; background-color:#6A5B48; color:#fff; border-bottom: 1px solid #7D6935; padding-top:7px;}
+#leftCol h4 {background: transparent url(../images/leftCol_btm.gif) bottom center no-repeat; height: 10px;}
+#leftCol h4 span {display:none;}
+#leftCol ul {
+list-style-type:none;
+width: 159px;
+margin-left: 1px;
+padding-left:0;
+}
+
+#leftCol ul li {margin-left: 0;}
+#leftCol li a {
+display: block;
+width: auto;
+padding: 0px 0;
+line-height: 15px;
+padding-left: 10px;
+}
+
+* html #leftCol li a { /*IE only. Actual menu width minus left padding of A element (10px) */
+ width: 149px;
+}
+
+#leftCol ul li a:link, #leftCol ul li a:visited {color: #6A5B48; text-decoration:none; }
+#leftCol ul li a:hover, #leftCol ul li a:active {color: #fff; text-decoration:none; background-color:#6A5B48; }
+
+
+
+
+
+#rightCol{
+float: left;
+width: 161px; /*Width of right column*/
+margin-left: -176px; /*Set left margin to -(RightColumnWidth) PLUS right padding */
+margin-top: 20px;
+padding: 10px 0 0 0;
+background: transparent url(../images/leftCol_top_dk.gif) top center no-repeat;
+}
+
+#rightCol div#inner {padding-top: 0px; background: transparent url(../images/leftCol_shim.gif) top center repeat-y;}
+#rightCol div#inner h3.topHead {padding-top:0; background-color:#6A5B48; color:#fff;}
+#rightCol div#inner h3 {padding-left: 10px; margin-bottom:0px; background-color:#6A5B48; color:#fff; border-bottom: 1px solid #7D6935; padding-top:10px;}
+#rightCol h4 {background: transparent url(../images/leftCol_btm.gif) top center no-repeat; height: 10px;}
+#rightCol h4 span {display:none;}
+
+#rightCol p {padding:10px;}
+
+#rightCol ul {
+/* margin: 20px 20px 110px 10px; */
+list-style-type:none;
+width: 159px;
+margin-left: 1px;
+padding-left:0;
+}
+
+#rightCol ul li {margin-left: 0;}
+
+#rightCol li a {
+display: block;
+width: auto;
+padding: 0px 0;
+line-height: 15px;
+padding-left: 0px;
+}
+
+* html #rightCol li a { /*IE only. Actual menu width minus left padding of A element (10px) */
+ width: 149px;
+}
+
+#rightCol ul li a:link, #rightCol ul li a:visited {color: #6A5B48; text-decoration:none; }
+#rightCol ul li a:hover, #rightCol ul li a:active {color: #fff; text-decoration:none; background-color:#6A5B48; }
+
+
+
+#footer{
+clear: left;
+width: 100%;
+background: #fff;
+color: #000;
+text-align: center;
+padding: 4px 0;
+}
+
+#footer a{
+color: #690;
+}
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+
+.price {color: yellow; font-style: italic;}
+.clear {visibility:hidden; clear:both;}
+
+.border { border-right: 1px solid #000; border-bottom: 1px solid #000; padding: 2px;}
+.leftBorder {border-left: 1px solid #000; border-right: 1px solid #000; border-bottom: 1px solid #000;  padding: 2px;}
+
+ul.thumbs li { display:inline; list-style-type:none;}
+ul.thumbs li a img {border: 1px solid #666; padding: 3px; margin:2px; background-color: #fff;}
+
+
+.formbutton{
+cursor:pointer;
+border:outset 1px #ccc;
+background:#999;
+color:#666;
+font-weight:bold;
+padding: 1px 2px;
+background:url(../images/formbg2.gif) repeat-x left top;
+}
+
+
+/* /////////// Top Nav Horizontal /////////////// */
+
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.ddoverlap{
+border-bottom: 1px solid #bbb8a9;
+margin-right: 6px; margin-left: 6px;
+}
+
+.ddoverlap ul{
+padding: 0;
+margin: 0;
+margin-left: 5px;
+padding-top: 120px;
+font: bold 90% default;
+list-style-type: none;
+}
+
+.ddoverlap li{
+display: inline;
+margin: 0;
+font-weight:normal;
+}
+
+.ddoverlap li a{
+padding: 3px 7px;
+text-decoration: none;
+padding-right: 32px; /*extra right padding to account for curved right edge of tab image*/
+color: #4C5F1F;
+background: transparent url(../images/righttabdefault.gif) 100% 1px no-repeat; /*give illusion of shifting 1px down vertically*/
+border-left: 1px solid #dbdbd5;
+position: relative;
+display: block;
+float: left;
+margin-left: -20px; /*shift tabs 20px to the left so they overlap*/
+left: 20px;
+}
+
+.ddoverlap li a:visited{
+color: #4C5F1F;
+}
+
+.ddoverlap li a:hover{
+text-decoration: underline;
+}
+
+.ddoverlap li.selected a{ /*selected tab style*/
+color: black;
+z-index: 100; /*higher z-index so selected tab is topmost*/
+top: 1px; /*Shift tab 1px down so the border beneath it is covered*/
+background: transparent url(../images/righttabselected.gif) 100% 0 no-repeat;
+}
+
+.ddoverlap li.selected a:hover{
+text-decoration: none;
+}
+
+

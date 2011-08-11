@@ -1,0 +1,456 @@
+/* CSS Document */
+
+	/* WillBowling.com layout  */
+	/* You may adapt certain elements of this CSS in your own projects, but the unique combination of images, colors, sizes, typography, and positioning ("the DESIGN") is copyright 2002-2006 Will Bowling and Tilted Circle Designs and may not be reproduced. */ 
+	/* Last updated 9 March 2006 */ 
+
+
+
+
+
+/* basic */
+
+* {margin: 0; padding:0;}
+* {border: none;}
+
+p, em, li, dd, dt, ul, ol, td {
+	font: 11px/18px "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+}
+
+h3 { font-size: 13px; }
+
+p { padding-bottom: 10px; }
+
+body {
+	font: 11px/18px "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+	color:#0066CC;
+	background: #99b0bc url(../images/bg.jpg) repeat-x top center fixed;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+
+#container {
+	position: relative;
+	background: url(../images/bg-content.gif) top center repeat-y ;
+	margin: 0 auto;
+	width: 770px;
+	min-height:580px;
+	border: 0px solid #fff;
+}
+
+hr {clear:both; visibility:hidden;}
+
+#heading {
+	background: url(../images/heading.gif) top center no-repeat;
+	height:73px;
+	width: 770px;
+	margin:0;
+	padding:0;}
+
+#headingAlt {
+	background: url(../images/hotdesigns.gif) top center no-repeat;
+	height:99px;
+	margin:0;
+	padding:0;}
+
+#heading span {
+	display:none;
+	}
+
+#headingAlt span li{
+	display: inline;
+	text-align: right;
+	padding: 5px;
+	}
+	
+#headingAlt span ul{
+	text-align: right;
+	margin-right: 100px;
+	}	
+
+#body {
+	text-align:left;
+	padding: 10px 70px;
+}
+
+#topnav { display: inline; position:relative;  }
+
+#nav {
+	position: relative;
+	background: url(../images/navbg.gif) no-repeat top right;
+	width: 157px;
+	height: 263px;
+	text-align:right;
+	float:left;
+	margin-top: -50px;
+	margin-right: 10px;
+	margin-bottom: 130px;
+	padding-left:0px;
+	padding-bottom: 10px;
+/* padding-right:30px; */
+}
+
+#nav ul{
+	margin-top: 60px;
+	margin-left: 20px;
+	padding-right: 20px;
+	font-size: 11px;
+	
+	}
+
+#nav li{
+	display:block;
+	text-decoration: none;
+	list-style: armenian;
+	line-height: 16pt;
+	border-bottom: 1px solid #666;
+
+}
+
+/* #nav a:hover { background: #fff; }*/
+
+
+.proj1, .proj2 {
+	margin-top:-40px;
+}
+
+.proj1 {
+	margin-left:10px;
+	margin-right: 10px;
+}
+
+.proj2 {
+	margin-right:30px;
+}
+
+		
+	
+	
+	
+/* text
+-------------------------------------------------*/
+
+
+/*#dtitle {
+font-weight:bold;
+color:#666;
+letter-spacing: 0.3em;
+margin-top: 20px;
+}*/
+
+.dtitle {
+font-weight:bold;
+color:#666;
+letter-spacing: 0.3em;
+margin-top: 20px;
+}
+
+.resume {
+padding-left: 30px;
+padding-top: 0;
+}
+
+.sitemap {
+padding-left: 90px;
+padding-right: 30px;
+}
+
+dt.map {
+padding-top: 10px;
+}
+
+dd.map {
+padding: 5px 5px 5px 25px;
+}
+
+.hidden
+	{
+	position:absolute;
+	left:0px;
+	top:-500px;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+	font-size: x-large; 
+	}
+
+.skills
+	{
+	margin-top: 5px;
+	margin-left: 15px;
+	}
+	
+.files
+	{
+	margin-top: 20px;
+	margin-left: -30px;
+	}	
+
+/* links
+-----------------------------------------------*/
+a, a:link, a:visited {
+	color:#666;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#f36;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+
+#linkList a, #linkList a:link, #linkList a:visited {
+	color: #06c;
+	text-decoration: none;
+	vertical-align:super;
+}
+
+#linkList a:hover {
+	text-decoration: none;
+	color: #f90;
+}
+
+/*#graphic a, #graphic a:link, #graphic a:visited {
+color:#06C;
+padding-top:10px;
+padding-left:0;
+text-decoration:none;
+}
+
+#graphic a:hover {
+text-decoration: none;
+color: #ccc;
+}*/
+
+.graphic a, .graphic a:link, .graphic a:visited {
+	color:#06C;
+	padding-top:10px;
+	padding-left:0;
+	text-decoration:none;
+}
+
+.graphic a:hover {
+	text-decoration: none;
+	color: #ccc;
+}
+
+#footer {
+	position: relative;
+	background: url(../images/footer.gif) no-repeat top center;
+	width: 770px;
+	height: 154px;
+	}
+
+
+#footer a, #footer a:link, #footer a:visited {
+	text-decoration: none;
+	color: #f90;
+	font-size: x-small;
+	padding: 0 0 0 20px;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	color: #ccc;
+}
+
+.files a, .files a:link, .files a:visited {
+	text-decoration: none;
+	color: #f90;
+	font-size: x-small;
+	padding: 0 0 0 20px;
+}
+
+.files a:hover {
+	text-decoration: none;
+	color: #ccc;
+}
+
+
+
+/*
+
+#info {
+margin-left:60px;
+margin-right:60px;
+padding-left:20px;
+}
+
+/* ___________OLD layout
+----------------------------------------------- */
+
+/* td #content {
+height: auto;
+}
+
+td #text h3 {
+padding-top: 30px;
+margin-left: 10px;
+margin-bottom: 0;
+font-size: large;}
+
+td #text {
+padding-bottom: 30px;
+}
+
+td #text p {
+text-align: justify;
+padding-left:30px;
+padding-right:40px;
+}
+
+#tableMain {
+width: 659px;
+margin: 0;
+background-color:#fff;
+border: 0;
+}
+
+/*#graphic {
+padding-left: 30px;
+padding-bottom:20px;
+margin:0;
+}*/
+
+/*
+.graphic {
+padding-left:30px;
+padding-bottom:20px;
+margin:0;
+}
+
+.data {
+padding-top: 30px;
+padding-right: 15px;
+}
+
+/*
+td .nav {
+width: 170px;
+}
+*/
+
+/*
+.dasha {
+padding-top: 30px;
+}
+*/
+
+
+/*	________  List / OLD NAV
+
+#linkList {
+position: relative;
+margin:0;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 20px;
+width:140px;
+line-height:33px;
+z-index:4;
+}
+
+.listimgs li {
+padding-top:5px;
+line-height: 21px;
+}
+
+#linkList li.a {
+list-style: url(../images/list_nav1.gif);
+vertical-align:text-top;}
+#linkList li.a1 {
+list-style: url(../images/list_nav12.gif);
+vertical-align:super;
+color:#FF9900;}
+
+#linkList li.b {
+list-style: url(../images/list_nav2.gif);}
+#linkList li.b1 {
+list-style: url(../images/list_nav22.gif);
+vertical-align:super;
+color:#FF9900;}
+
+#linkList li.c {
+list-style: url(../images/list_nav3.gif);}
+#linkList li.c1 {
+list-style: url(../images/list_nav32.gif);
+vertical-align:super;
+color:#FF9900;}
+
+
+#linkList li.d {
+list-style: url(../images/list_nav4.gif);}
+#linkList li.d1 {
+list-style: url(../images/list_nav42.gif);
+vertical-align:super;
+color:#FF9900;}
+
+
+#linkList li.e {
+list-style: url(../images/list_nav5.gif);}
+#linkList li.e1 {
+list-style: url(../images/list_nav52.gif);
+vertical-align:super;
+color:#FF9900;}
+
+
+#linkList li.f {
+list-style: url(../images/list_nav6.gif);}
+#linkList li.f1 {
+list-style: url(../images/list_nav62.gif);
+vertical-align:super;
+color:#FF9900;}
+
+*/
+
+
+/*
+#footer {
+position:relative;
+padding-top: 15px;
+text-align:left;
+/* background: url(../images/bgbtm.jpg) no-repeat bottom right;
+height: 60px;
+}
+
+
+
+.resume dt {
+padding-top: 1em;
+}
+
+dd#resex {
+padding-bottom: 0.7em;
+}
+
+/* header
+----------------------------------------------- */
+
+
+/*
+#pageHeader {
+	background: url(../images/head.jpg) top center no-repeat;
+	height: 168px;
+	margin: 0;
+	z-index:9;
+	}
+	
+
+#pageHeader h1, h2 {
+	display: none;
+	}
+
+/*#graphic h4 {
+	color:#666;
+	font-size:small;
+	}*/
+
+
+/*
+.graphic h4 {
+	color:#666;
+	font-size:small;
+	}

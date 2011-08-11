@@ -1,0 +1,247 @@
+/* CSS Document */
+
+ *{margin:0;padding:0; line-height: 1em;}
+ p,h1,h2,h3,h4,h5,h6,td,table,li,dt,dd,em,strong{font:11px/18px "Century Gothic","Lucida Grande","Trebuchet MS","Bitstream Vera Sans",Verdana,Helvetica,sans-serif;}
+ a,p,h1,h2,h3,h4,h5{padding:0 0 5px 0;margin:0;}
+ h1,h2,h3,h4,h5{font-weight:bold;}
+ h1{font-size:16px;}
+ h2{font-size:14px;}
+ h3{font-size:12px;}
+ h4{font-size:11px;}
+
+a, a:link, a:visited { color:#039; text-decoration: none; line-height: 18px;}
+a:hover { color: #039; text-decoration: underline;line-height: 18px;}
+a:active { color: #000; text-decoration: none;  line-height: 18px;}
+
+body {
+	font: 11px/18px "Century Gothic","Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+	color:#000;
+	background-color: #ccc;
+	/* background: #CCC url(../images/skybg.jpg) top left repeat-x; */
+	text-align:center;
+}
+
+#container {
+	position: relative;
+	border: 0;
+	background-color: transparent;
+	/*margin: 85px auto 0 auto;*/
+	margin: auto;
+	width: 800px;
+	/* width: 1000px;
+	height: 774px;*/
+	background: transparent url(../images/bgshim.jpg) top center repeat-y;
+	text-align: left; 
+}
+
+#header {
+	position: relative;
+	margin: 0 auto;
+	border: 0;
+	background: transparent url(../images/header.jpg) top center no-repeat;
+	width: 800px; height: 220px;
+}
+#header h1 span{display:none;}
+
+div#body {
+	position: relative;
+	margin: 0 auto;
+	border: 0;
+	/* background: transparent url(../images/bodybg.jpg) top center no-repeat; */
+	/* width: 860px; height: 405px; */
+	width: 750px; height: 470px;
+}
+
+div#body h3, div#body p { margin: 0 20px; }
+
+#nav {
+	width: 130px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+	clear: right;
+	}
+
+#nav ul li {
+	list-style: none;
+	padding: 5px 0;
+	}
+
+#content {
+	position:relative;
+	width: 570px; height:380px;
+	border: 0px solid #3b3b3b;
+	overflow: auto;
+	background-color: transparent;
+	color: #3b3b3b;
+	text-align: left;
+	z-index: 4;
+	}
+
+
+/*  div#body table { z-index: 2; } */
+
+/*  -------------------  Begin CSS dropdown ------------------------  */
+
+
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+#navWrapper {
+float:left;
+padding-left: 0px;
+/* width: 150px; */
+position: relative;}
+
+.navdiv ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+width: 150px; /* Width of Menu Items */
+border-bottom: 0px solid #ccc;
+z-index: 700;
+}
+	
+.navdiv ul li{
+position: relative;
+list-style: none;
+color: #000;
+font: 15px/22px "Century Gothic","Lucida Grande","Trebuchet MS","Bitstream Vera Sans",Verdana,Helvetica,sans-serif;
+z-index: 750;
+}
+	
+/*1st level sub menu style */
+.navdiv ul li ul{
+left: 149px; /* Parent menu width - 1*/
+position: absolute;
+width: 160px; /*sub menu width*/
+top: 0;
+background-color: #fafafa;
+border: 1px solid #ababab;
+display: none;
+z-index:1000;
+}
+
+/*All subsequent sub menu levels offset */
+.navdiv ul li ul li ul{ 
+left: 159px; /* Parent menu width - 1*/
+}
+
+/* menu links style */
+.navdiv ul li a{
+display: block;
+color: black;
+text-decoration: none;
+background: transparent;
+padding: 4px 11px;
+border: 0px solid #ccc;
+border-bottom: 0;
+}
+
+.navdiv ul li a:visited{
+color: black;
+}
+
+.navdiv ul li a:hover{
+background-color: #fff;
+text-decoration: none;
+}
+
+.navdiv .subfolderstyle{
+/* background: url(media/arrow-list.gif) no-repeat center right; */
+z-index: 1000;
+}
+
+
+.navdiv ul li ul li a:link, .navdiv ul li ul li a:visited {font-size: 11px;line-height: 11px;}
+.navdiv ul li ul li a:hover, .navdiv ul li ul li a:active{font-size: 11px;line-height: 11px;}
+	
+/* Holly Hack for IE \*/
+* html .navdiv ul li { float: left; height: 1%; }
+* html .navdiv ul li a { height: 1%; }
+/* End */
+
+
+
+/* -------------------   End CSS Menu  ----------------------  */
+
+
+
+#main_box {
+	position: relative;
+	width: 615px; height:405px; 
+	background: transparent url(../images/bodytxt_bg.jpg) top right no-repeat;
+	padding: 0px;
+	padding-top: 10px;
+	margin: 0;
+	margin-left: 155px;
+	text-align:center;
+	z-index: 3;
+	}
+	
+	
+#main_content img { padding: 0 10px; padding-top: 0px; }	
+#main_content img.heading { margin: 10px 0 10px 0px; }	
+#main_content p { padding: 0 30px; padding-bottom: 20px; }
+
+
+table#contactInfo {
+width: 750px;
+margin: 0 auto;
+margin-top: 0px;
+}
+table#contactInfo td.space {
+padding-left: 20px;}
+
+table#advertise {
+width: 695px;
+margin: 13px auto;
+}
+	
+.blue { color: #039; }
+
+#footer {
+	position: relative;
+	border: 0;
+	background: transparent url(../images/footerbg.jpg) top center no-repeat;
+	margin:0; padding:0;
+	width: 100%; height: 150px;
+	}	
+	
+#copyright {
+	width: 700px;
+	color: #3b3b3b;
+	font-size: 9px;
+	margin: 0 auto;
+	text-align:center;
+	}
+	
+#copyright a:link, #copyright a:visited {color: #600; }
+#copyright a:hover, #copyright a:active{color: #600; }
+		
+
+#heading { position:relative; padding: 3px 0; text-align: center; background-color: transparent; }
+h3#heading span { display: none; }
+
+#heading2 { padding: 3px 10px 0; margin-top: 20px; background: url(../images/smGradient.gif) top left repeat-y; }
+
+
+
+td.first { border-top: 1px solid #369; }
+p.first {padding-top: 10px;}
+th.first {padding-top: 10px;}
+/*	
+#main_scroll {
+	margin-right: 60px; 
+	float: right;
+	width: 615px; height:382px; 
+	border: 0px solid #3b3b3b;
+	overflow: auto;
+	background: transparent url(../images/bodytxt_bg.jpg) top center no-repeat;
+	padding: 0px;
+	color: #3b3b3b;
+	text-align: left;
+	scrollbar-3dlight-color:#fff;
+	scrollbar-face-color:#7A9AD0;scrollbar-shadow-color:#7A9AD0;scrollbar-highlight-color:#7A9AD0;scrollbar-darkshadow-Color:#7A9AD0;
+	scrollbar-arrow-color:#3b3b3b;scrollbar-track-color:#3b3b3b;
+	}	*/

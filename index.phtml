@@ -1,0 +1,29 @@
+<?
+switch ($HTTP_SERVER_VARS["HTTP_HOST"])
+{
+case "www.willbowling.com":
+case "willbowling.com":
+$doc = "http://www.willbowling.com/index.php";
+header("Location: $doc");
+break;
+
+case "tiltedcircledesigns.com":
+case "www.tiltedcircledesigns.com":
+$doc = "http://www.tiltedcircledesigns.com/tilted/index.php";
+$doc .= $HTTP_SERVER_VARS["REQUEST_URI"];
+header("Location: $doc");
+break;
+
+/* case "tiltedcircle.com":
+case "www.tiltedcircle.com":
+$doc = "http://www.tiltedcircle.com/tilted/index.php";
+$doc .= $HTTP_SERVER_VARS["REQUEST_URI"];
+header("Location: $doc");
+break;
+*/
+
+default: print " "; print "Unknown server name"; print "
+";
+break;
+}
+?>
