@@ -14,15 +14,15 @@
 		<h2>Will Bowling // Resum&eacute;</h2>
 			<h3>Summary</h3>
 			<p>I have been working with CSS, XHTML and Web Standards since 1999. I am continuously expanding my knowledge of design, web development methodologies and emerging social media trends. I have experience working for marketing firms, advertising agencies such as SuperPages.com and small start-up media companies such as eNox Media.  </p>
-			<p>Please <a href="/portfolio/resume/Will-E-Bowling-2011-resume.pdf" title="Will Bowling Resume / DOC"	target="_blank">download my resum&eacute;</a> to view a complete listing of my experience, and qualifications.</p>
+			<p>Please <a href="/portfolio/resume/Will-E-Bowling-2012-resume.pdf" title="Will Bowling Resume / DOC"	target="_blank">download my resum&eacute;</a> to view a complete listing of my experience, and qualifications.</p>
 
 			<p>
-				<a href="/portfolio/resume/Will-E-Bowling-2011-resume.doc" title="Will Bowling Resume / DOC"	target="_blank">
+				<a href="/portfolio/resume/Will-E-Bowling-2012-resume.doc" title="Will Bowling Resume / DOC"	target="_blank">
 				<img src="images/doc.jpg" border="0" alt="Will Bowling Resume DOC" /> Current .doc Resume</a> 
 			</p>
 
 			<p>
-				<a href="/portfolio/resume/Will-E-Bowling-2011-resume.pdf" title="Will Bowling Resume / PDF"	target="_blank">
+				<a href="/portfolio/resume/Will-E-Bowling-2012-resume.pdf" title="Will Bowling Resume / PDF"	target="_blank">
 				<img src="images/pdf.jpg" border="0" alt="Will Bowling Resume PDF" /> Current .pdf Resume</a> 
 			</p>
 
@@ -31,6 +31,8 @@
 		<div class="project">
 		<h3>Experience</h3>
 			<dl class="experience">
+			<dt>08/11 - Present // Web Developer </dt>
+				<dd>WebMD, Atlanta, Georgia 30361 </dd>
 			<dt>06/11 - 08/11 // Senior Mobile Designer &amp; Developer </dt>
 				<dd>Sparkfly, Atlanta, Georgia 30324 </dd>
 			<dt>01/11 - 06/11 // Contract Web Developer</dt>
